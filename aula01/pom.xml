@@ -6,7 +6,7 @@
 		<artifactId>persistencia-java</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
-	<artifactId>persistence-java-aula01</artifactId>
+	<artifactId>persistencia-java-aula01</artifactId>
 	<name>Persistência em JAVA - Aula 01</name>
 	<description>Persistência em JAVA - Aula 01</description>
 
