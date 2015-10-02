@@ -22,6 +22,18 @@ public class StudentDAOImpl implements StudentDAO {
 		entityManager.persist(student);
 		entityManager.getTransaction().commit();
 	}
+
+	public void update(Student student) {
+		entityManager.getTransaction().begin();
+		entityManager.merge(student);
+		entityManager.getTransaction().commit();
+	}
+
+	public void delete(Student student) {
+		entityManager.getTransaction().begin();
+		entityManager.remove(student);
+		entityManager.getTransaction().commit();
+	}
 	
 	@SuppressWarnings("unchecked")
 	public List<Student> findAll() {
