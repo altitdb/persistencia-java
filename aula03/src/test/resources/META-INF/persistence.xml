@@ -18,11 +18,17 @@
 		<class>br.edu.fcv.exemplo05.Client</class>
 		<class>br.edu.fcv.exemplo06.Dependent</class>
 		<class>br.edu.fcv.exemplo06.DependentPK</class>
-		<class>br.edu.fcv.exemplo06.Usage</class>
+		<class>br.edu.fcv.exemplo06.Registry</class>
 		<properties>
 			<property name="eclipselink.logging.level" value="FINE" />
 			<property name="eclipselink.target-database" value="DERBY" />
 			<property name="eclipselink.ddl-generation" value="create-tables" />
+			<!-- 
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+			<property name="javax.persistence.jdbc.url"	value="jdbc:mysql://localhost:3306/fcv" />
+			<property name="javax.persistence.jdbc.user" value="root" />
+			<property name="javax.persistence.jdbc.password" value="root" /> 
+			-->
 			<property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver" />
 			<property name="javax.persistence.jdbc.url"	value="jdbc:derby:memory:PersistenceJava;create=true" />
 			<property name="javax.persistence.jdbc.user" value="" />
