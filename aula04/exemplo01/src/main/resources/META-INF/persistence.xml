@@ -7,6 +7,9 @@
 	<persistence-unit name="PersistenceJavaPU"
 		transaction-type="RESOURCE_LOCAL">
 		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		<class>br.edu.fcv.aula04.exemplo01.Pessoa</class>
+		<class>br.edu.fcv.aula04.exemplo01.PessoaFisica</class>
+		<class>br.edu.fcv.aula04.exemplo01.PessoaJuridica</class>
 		<properties>
 			<property name="eclipselink.logging.logger" value="ServerLogger"/>
 			<property name="eclipselink.logging.level" value="SEVERE" />

@@ -4,11 +4,20 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence 
 	http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
 	version="2.0">
-	<persistence-unit name="PersistenceJavaTestPU"
+	<persistence-unit name="PersistenceJavaPU"
 		transaction-type="RESOURCE_LOCAL">
 		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		<class>br.edu.fcv.aula04.exemplo03.Pessoa</class>
+		<class>br.edu.fcv.aula04.exemplo03.PessoaFisica</class>
+		<class>br.edu.fcv.aula04.exemplo03.PessoaJuridica</class>
 		<properties>
-			<property name="eclipselink.logging.level" value="FINE" />
+			<property name="eclipselink.logging.logger" value="ServerLogger"/>
+			<property name="eclipselink.logging.level" value="SEVERE" />
+			<property name="eclipselink.logging.level.sql" value="FINE"/>
+			<property name="eclipselink.logging.parameters" value="true"/>
+			<property name="eclipselink.logging.thread" value="false"/>
+			<property name="eclipselink.logging.session" value="false"/>
+			<property name="eclipselink.logging.timestamp" value="true"/>
 			<property name="eclipselink.target-database" value="DERBY" />
 			<property name="eclipselink.ddl-generation" value="create-tables" />
 			<property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver" />
