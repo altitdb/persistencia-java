@@ -5,3 +5,5 @@ Persistência em JAVA
 [Slide Aula 02](https://docs.google.com/presentation/d/1VNRn-scyQX17ercIP2aLuNi4y3mh4OCKgd-NqccIsdo/edit#slide=id.p)
 
 [Slide Aula 03](https://docs.google.com/presentation/d/1gAN_lfm7kEW_YymjFQBzZttafDgywldA9qjEuip_0wU/edit#slide=id.p)
+
+[Slide Aula 04](https://docs.google.com/presentation/d/11dXF5SiA631cYfYPAUqcpPGdImukRUCet0VUG1F6SUU/edit#slide=id.p)
