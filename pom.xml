@@ -10,6 +10,7 @@
 		<module>aula02</module>
 		<module>aula03</module>
 		<module>aula04</module>
+		<module>aula05</module>
 	</modules>
 
 	<build>
