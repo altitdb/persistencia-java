@@ -11,6 +11,7 @@
 		<module>aula03</module>
 		<module>aula04</module>
 		<module>aula05</module>
+		<module>aula06</module>
 	</modules>
 
 	<build>
